@@ -43,12 +43,13 @@ def hit?(card_total)
     invalid_command
     hit?(card_total)
     #binding.pry
+    card_total
   end
 end
 
 def invalid_command
   puts "Please enter a valid command"
-  #prompt_user
+  prompt_user
   #get_user_input
 end
 
